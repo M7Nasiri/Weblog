@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "94hna94eCi8=",
+  "success": true,
+  "projectFilePath": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\App.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\App.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\App.Application.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

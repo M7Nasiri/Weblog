@@ -1,0 +1,16 @@
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\bin\Debug\net10.0\App.Application.deps.json
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\bin\Debug\net10.0\App.Application.dll
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\bin\Debug\net10.0\App.Application.pdb
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\bin\Debug\net10.0\App.Domain.dll
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\bin\Debug\net10.0\App.Domain.pdb
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\obj\Debug\net10.0\App.Application.csproj.AssemblyReference.cache
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\obj\Debug\net10.0\App.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\obj\Debug\net10.0\App.Application.AssemblyInfoInputs.cache
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\obj\Debug\net10.0\App.Application.AssemblyInfo.cs
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\obj\Debug\net10.0\App.Application.csproj.CoreCompileInputs.cache
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\obj\Debug\net10.0\App.Application.sourcelink.json
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\obj\Debug\net10.0\App.Appl.090A7001.Up2Date
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\obj\Debug\net10.0\App.Application.dll
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\obj\Debug\net10.0\refint\App.Application.dll
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\obj\Debug\net10.0\App.Application.pdb
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Application\obj\Debug\net10.0\ref\App.Application.dll

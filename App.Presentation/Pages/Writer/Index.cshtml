@@ -1,0 +1,72 @@
+﻿@page
+@using App.Application.Utils
+@model App.Presentation.Pages.Writer.IndexModel
+@{
+    ViewData["Title"] = "مدیریت پست‌ها";
+}
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-2">
+            <!-- دکمه افزودن دسته‌بندی جدید -->
+            @*     <a class="btn btn-success mb-3" asp-page-handler="CreateCategory">افزودن دسته‌بندی جدید</a>
+ *@
+            <div class="form-group mt-3">
+                <a class="btn btn-primary mt-10" asp-page="/CategoryAgg/Index">دسته بندی ها</a>
+            </div>
+
+        </div>
+
+        <div class="col-10">
+            <h2 class="my-4">مدیریت پست‌ها</h2>
+
+            <!-- دکمه افزودن پست جدید -->
+            <a class="btn btn-primary mb-3" asp-page="/Post/CreatePost">افزودن پست جدید</a>
+            <!-- جدول پست‌ها -->
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>عنوان پست</th>
+                        <th>دسته‌بندی</th>
+                        <th>تاریخ ایجاد</th>
+                        <th>تعداد مشاهده</th>
+                        <th>نویسنده</th>
+                        <th>بررسی کننده</th>
+                        <th>تصویر</th>
+                        <th>عملیات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if(Model.Posts != null && Model.Posts.Any())
+                    {
+                        @foreach (var post in Model.Posts)
+                        {
+                            <tr>
+                                <td>@post.Id</td>
+                                <td>@post.Title</td>
+                                <td>@post.CategoryName</td>
+                                <td>@post.CreatedAt.ToPersianString()</td>
+                                <td>@post.ViewCount</td>
+                                <td>@post.WriterUserName</td>
+                                <td>@post.VerifierUserName</td>
+                                <td><img src="@post.ImagePath" class="img-thumbnail" style="width:50px;"></td>
+                                <td>
+                                    <!-- دکمه ویرایش -->
+                                    <a class="btn btn-warning" asp-page="/Post/EditPost" asp-route-id="@post.Id">ویرایش</a>
+                                    <!-- دکمه حذف -->
+                                    <a class="btn btn-danger" asp-page="/Post/DeletePost" asp-route-id="@post.Id">حذف</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else{
+                        <tr>اطلاعاتی برای نمایش وجود ندارد .</tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

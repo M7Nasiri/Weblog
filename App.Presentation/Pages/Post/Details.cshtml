@@ -1,0 +1,46 @@
+﻿@page
+@using App.Application.Utils
+@model App.Presentation.Pages.Post.DetailsModel
+@{
+    ViewData["Title"] = Model.model.Title;
+}
+
+<div class="container mt-4">
+
+    <div class="card p-4 shadow-sm">
+
+        @* عنوان پست *@
+        <h1 class="mb-3 text-primary">@Model.model.Title</h1>
+
+        @* اطلاعات پست (نویسنده، تاریخ، تعداد بازدید) *@
+        <p class="text-secondary small">
+        <p>نویسنده : @Model.model.WriterUserName</p>
+        <p>تاریخ ایجاد : @Model.model.CreatedAt.ToPersianString() </p>
+        <p>تعداد بازدید : @Model.model.ViewCount</p>
+
+
+        @* دسته‌بندی پست *@
+        <p class="text-muted">دسته‌بندی: <strong>@Model.model.CategoryName</strong></p>
+
+        <hr />
+
+        @* تصویر پست *@
+        @if (!string.IsNullOrEmpty(Model.model.ImagePath))
+        {
+            <img src="@Model.model.ImagePath" class="img-fluid rounded mb-4 w-100" />
+        }
+
+        @* توضیحات پست *@
+        <div class="post-content" style="text-align: justify; line-height: 2;">
+            @(Model.model.Description)
+        </div>
+
+        <hr />
+
+        @* دکمه بازگشت به صفحه اصلی *@
+        <a asp-page="/Index" class="btn btn-outline-secondary mt-3">← بازگشت به صفحه اصلی</a>
+
+    </div>
+
+</div>
+

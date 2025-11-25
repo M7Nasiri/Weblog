@@ -1,0 +1,42 @@
+﻿@page
+@model App.Presentation.Pages.Post.DeletePostModel
+@{
+}
+
+
+<div class="container">
+    <h2 class="my-4">ویرایش پست</h2>
+
+    <form method="post" >
+        <input type="hidden" asp-for="model.Id" />
+        <input type="hidden" asp-for="model.ImagePath" />
+        <div class="form-group">
+            <label for="Title">عنوان پست</label>
+            <input type="text" class="form-control" asp-for="model.Title" />
+        </div>
+        <div class="form-group">
+            <label for="Summary">خلاصه متن</label>
+            <textarea class="form-control" asp-for="model.Summary"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="Title">تصویر</label>
+            <img src="@Model.model.ImagePath" class="img-thumbnail" />
+        </div>
+
+        <div class="form-group">
+            <label for="Title">دسته بندی</label>
+            <input type="text" class="form-control" asp-for="model.CategoryName" />
+        </div>
+        <div class="form-group">
+            <label for="Title">نویسنده</label>
+            <input type="text" class="form-control" asp-for="model.WriterUserName" />
+        </div>
+        <div class="form-group">
+            <label for="Title">تعداد مشاهده</label>
+            <input type="text" class="form-control" asp-for="model.ViewCount" />
+        </div>
+
+        <button type="submit" class="btn btn-danger">حذف پست</button>
+    </form>
+</div>

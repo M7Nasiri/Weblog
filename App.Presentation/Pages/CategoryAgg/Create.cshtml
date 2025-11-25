@@ -1,0 +1,24 @@
+﻿@page
+@model App.Presentation.Pages.CategoryAgg.CreateModel
+@{
+}
+<div class="container">
+
+<h2 class="my-4">ساخت دسته‌بندی جدید</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label>نام دسته بندی</label>
+            <input type="text" asp-for="Category.Title" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>توضیحات</label>
+            <textarea asp-for="Category.Description" class="form-control" rows="4"></textarea>
+    </div>
+    <div class="form-group mt-3">
+        <button type="submit" class="btn btn-success">ایجاد دسته بندی جدید</button>
+
+    </div>
+</form>
+</div>

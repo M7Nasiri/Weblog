@@ -41,6 +41,11 @@ namespace App.Data.Repositories
             return context.Categories.Where(u => u.UserId == userId).ToList();
         }
 
+        public string GetNameById(int categoryId)
+        {
+            return context.Categories.Where(c => c.Id == categoryId).Select(c => c.Title).FirstOrDefault();
+        }
+
         public bool Update(int id, Category category)
         {
             return context.Categories.Where(c => c.Id == id)

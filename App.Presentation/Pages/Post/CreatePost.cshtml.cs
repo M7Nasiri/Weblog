@@ -52,7 +52,7 @@ namespace App.Presentation.Pages.Post
             
             postService.Create(model);
 
-            return RedirectToPage("/Writer/Index");
+            return RedirectToPage("/Writer/Profile");
         }
     }
 }

@@ -16,5 +16,8 @@ namespace App.Domain.Interfaces
         public string GetSummary(string description);
         bool UpdateViewCount(int id,int count);
 
+        List<GetPostViewModel> GetBySearchAndSort(int userId, SearchAndSortViewModel sSModel);
+
+
     }
 }

@@ -13,5 +13,7 @@ namespace App.Application.Interfaces
         bool Update(int id, Category category);
         bool Delete(int id,int userId);
         List<Category> GetAll(int userId);
+        string GetNameById(int categoryId);
+
     }
 }

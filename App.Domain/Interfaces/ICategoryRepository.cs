@@ -10,6 +10,7 @@ namespace App.Domain.Interfaces
         List<Category> GetAll();
         List<Category> GetAll(int userId);
         Category? Get(int categoryId);
+        string GetNameById(int categoryId);
         bool Create(Category category);
         bool Update(int id, Category category);
         bool Delete(int id,int userId);

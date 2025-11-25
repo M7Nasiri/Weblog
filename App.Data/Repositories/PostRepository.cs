@@ -65,5 +65,21 @@ namespace App.Data.Repositories
         {
             return context.Posts.Where(p => p.Id == id).ExecuteUpdate(setters => setters.SetProperty((p => p.ViewCount), count)) > 0;
         }
+
+        public List<GetPostViewModel> GetBySearchAndSort(int userId,SearchAndSortViewModel sSModel)
+        {
+            IQueryable<Post> iQres = context.Posts.Where(p => p.WriterUserId == userId).Include(p => p.Cateogry)
+                .Include(p => p.Writer).Include(p => p.Verifier).OrderByDescending(p => p.CreatedAt); 
+            if (!string.IsNullOrEmpty(sSModel.Title))
+            {
+                iQres = iQres.Where(p => p.Title.Contains(sSModel.Title));
+            }
+            if (sSModel.SortType != 0)
+            {
+                iQres = iQres.Where(p=>p.CategoryId ==sSModel.SortType);
+            }
+            return mapper.Map<List<GetPostViewModel>>(iQres);
+
+        }
     }
 }

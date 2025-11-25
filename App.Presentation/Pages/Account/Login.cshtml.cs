@@ -50,7 +50,7 @@ namespace App.Presentation.Pages.Account
                 }
                 if(result.Role == RoleEnum.Writer)
                 {
-                    return RedirectToPage("/Writer/Index");
+                    return RedirectToPage("/Writer/Profile");
                 }
                 if(result.Role == RoleEnum.Verifier)
                 {

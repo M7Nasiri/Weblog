@@ -34,6 +34,11 @@ namespace App.Application.Services
             return categoryRepo.GetAll(userId);
         }
 
+        public string GetNameById(int categoryId)
+        {
+            return categoryRepo.GetNameById(categoryId);
+        }
+
         public bool Update(int id, Category category)
         {
             return categoryRepo.Update(id, category);

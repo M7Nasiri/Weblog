@@ -57,7 +57,7 @@ namespace App.Presentation.Pages.Post
 
             model.WriterUserId = UserId;
             postService.Update(id, UserId, model);
-            return RedirectToPage("/Writer/Index");
+            return RedirectToPage("/Writer/Profile");
         }
     }
 }

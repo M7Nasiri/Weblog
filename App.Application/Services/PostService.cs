@@ -7,7 +7,7 @@ using System.Text;
 
 namespace App.Application.Services
 {
-    public class PostService(IPostRepository postRepository,IFileService fileService) : IPostService
+    public class PostService(IPostRepository postRepository,IFileService fileService,ICategoryService categoryService) : IPostService
     {
         public bool Create(CreatePostViewModel model)
         {
@@ -39,6 +39,11 @@ namespace App.Application.Services
         public List<GetPostViewModel> GetAll(int userId)
         {
             return postRepository.GetAll(userId);
+        }
+
+        public List<GetPostViewModel> GetBySearchAndSort(int userId, SearchAndSortViewModel sSModel)
+        {
+            return postRepository.GetBySearchAndSort(userId,sSModel);
         }
 
         public bool Update(int id, int userId,UpdatePostViewModel model)

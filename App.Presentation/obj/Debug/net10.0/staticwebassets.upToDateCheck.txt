@@ -66,6 +66,7 @@ wwwroot\Files\Posts\5e8ea712-80c3-4db5-b718-24eb58894410.jpg
 wwwroot\Files\Posts\72b0a3e3-7891-40b9-abbf-8449f717de3b.jpg
 wwwroot\Files\Posts\7628b699-5b0c-4ab2-8ed3-7f655128a340.jpg
 wwwroot\Files\Posts\83354e53-980b-4ba5-8301-5ecf40ab98d3.jpg
+wwwroot\Files\Posts\b4d077dd-0f2f-4e7c-98c3-a83a185cb412.jpg
 wwwroot\Files\Posts\ebbaf393-d433-48be-aff8-7c340843c68c.jpg
 wwwroot\Files\Posts\f5c8ca5b-b7a7-40c6-b4f7-848fe9be606d.jpg
 wwwroot\css\site.css

@@ -18,5 +18,6 @@ namespace App.Domain.ViewModels.Post
         public int CategoryId { get; set; }
         public string WriterUserName { get; set; }
         public string? VerifierUserName { get; set; }
+        public bool IsApproved { get; set; }
     }
 }

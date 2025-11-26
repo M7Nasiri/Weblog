@@ -94,6 +94,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/MaktabSharif/dev/projects/HW21/Weblog/App.Presentation/Pages/Verifier/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVyaWZpZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MaktabSharif/dev/projects/HW21/Weblog/App.Presentation/Pages/Verifier/PostApproved.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVyaWZpZXJcUG9zdEFwcHJvdmVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/MaktabSharif/dev/projects/HW21/Weblog/App.Presentation/Pages/Writer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV3JpdGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

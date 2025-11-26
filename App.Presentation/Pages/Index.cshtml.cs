@@ -11,7 +11,7 @@ namespace App.Presentation.Pages
         public List<GetPostViewModel> Posts { get; set; }
         public void OnGet()
         {
-            Posts = postService.GetAll();
+            Posts = postService.GetAll(true);
         }
     }
 }

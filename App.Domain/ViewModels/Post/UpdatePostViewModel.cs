@@ -13,5 +13,6 @@ namespace App.Domain.ViewModels.Post
         public int CategoryId{ get; set; }
         public string? ImagePath { get; set; }
         public int WriterUserId { get; set; }
+        public bool IsApproved { get; set; }
     }
 }

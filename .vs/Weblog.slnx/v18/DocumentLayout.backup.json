@@ -3,36 +3,124 @@
   "WorkspaceRootPath": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\categoryagg\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\categoryagg\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\writer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\writer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\writer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\writer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{023866F2-579D-7500-A904-957A167095D3}|App.Data\\App.Data.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.data\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{023866F2-579D-7500-A904-957A167095D3}|App.Data\\App.Data.csproj|solutionrelative:app.data\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|solutionrelative:app.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\verifier\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\verifier\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\verifier\\postapproved.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\verifier\\postapproved.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\viewmodels\\post\\getpostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\viewmodels\\post\\getpostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\viewmodels\\post\\postdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\viewmodels\\post\\postdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\deletepost.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\deletepost.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\createpost.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\createpost.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\enum\\roleenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\enum\\roleenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.application\\interfaces\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|solutionrelative:app.application\\interfaces\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\interfaces\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\interfaces\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\writer\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\writer\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\verifier\\postapproved.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\verifier\\postapproved.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\editpost.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\editpost.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\verifier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\verifier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.application\\utils\\persiandateextensionmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|solutionrelative:app.application\\utils\\persiandateextensionmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\writer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\writer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\viewmodels\\post\\updatepostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\viewmodels\\post\\updatepostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\viewmodels\\post\\deletepostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\viewmodels\\post\\deletepostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\viewmodels\\post\\searchandsortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\viewmodels\\post\\searchandsortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|solutionrelative:app.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\categoryagg\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\categoryagg\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\writer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\writer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,14 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\interfaces\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\interfaces\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.application\\interfaces\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|solutionrelative:app.application\\interfaces\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{023866F2-579D-7500-A904-957A167095D3}|App.Data\\App.Data.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.data\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,28 +159,8 @@
       "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\deletepost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\deletepost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\editpost.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\editpost.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\deletepost.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\deletepost.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\post\\createpost.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\createpost.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,14 +169,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\categoryagg\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -129,10 +181,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\categoryagg\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\categoryagg\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.presentation\\pages\\categoryagg\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -175,10 +223,6 @@
       "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\viewmodels\\user\\loginuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\enum\\roleenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\enum\\roleenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\viewmodels\\user\\getuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\viewmodels\\user\\getuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -211,28 +255,12 @@
       "RelativeMoniker": "D:0:0:{729D5994-CC4F-1243-443F-6A68C0EA8FDD}|App.Presentation\\App.Presentation.csproj|solutionrelative:app.presentation\\pages\\post\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\viewmodels\\post\\postdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\viewmodels\\post\\postdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.application\\utils\\persiandateextensionmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|solutionrelative:app.application\\utils\\persiandateextensionmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.application\\applicationservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|solutionrelative:app.application\\applicationservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.application\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29A40D0F-9189-2FAD-58BA-BB372C8F70EE}|App.Application\\App.Application.csproj|solutionrelative:app.application\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\viewmodels\\post\\getpostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\viewmodels\\post\\getpostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\viewmodels\\post\\deletepostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\viewmodels\\post\\deletepostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{023866F2-579D-7500-A904-957A167095D3}|App.Data\\App.Data.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -245,14 +273,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{023866F2-579D-7500-A904-957A167095D3}|App.Data\\App.Data.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.data\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{023866F2-579D-7500-A904-957A167095D3}|App.Data\\App.Data.csproj|solutionrelative:app.data\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\viewmodels\\post\\updatepostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\viewmodels\\post\\updatepostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BED861CB-9D56-883A-588A-0880A5F9D7F4}|App.Domain\\App.Domain.csproj|d:\\maktabsharif\\dev\\projects\\hw21\\weblog\\app.domain\\viewmodels\\post\\createpostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -318,22 +338,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "App.Data\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "App.Data\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAC0AAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T20:28:24.855Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -344,215 +350,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Index.cshtml",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Writer\\Index.cshtml",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Index.cshtml",
-              "RelativeToolTip": "App.Presentation\\Pages\\Writer\\Index.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T09:34:52.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SearchAndSortViewModel.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\SearchAndSortViewModel.cs",
-              "RelativeDocumentMoniker": "App.Domain\\ViewModels\\Post\\SearchAndSortViewModel.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\SearchAndSortViewModel.cs",
-              "RelativeToolTip": "App.Domain\\ViewModels\\Post\\SearchAndSortViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 31,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "App.Data\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "App.Data\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC0AAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T10:01:03.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T20:28:24.855Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Profile.cshtml",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Writer\\Profile.cshtml",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Profile.cshtml",
-              "RelativeToolTip": "App.Presentation\\Pages\\Writer\\Profile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T22:03:18.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\CategoryAgg\\Index.cshtml",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\CategoryAgg\\Index.cshtml",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\CategoryAgg\\Index.cshtml",
-              "RelativeToolTip": "App.Presentation\\Pages\\CategoryAgg\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T16:23:57.402Z",
+              "DocumentIndex": 5,
+              "Title": "PostDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\PostDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "App.Domain\\ViewModels\\Post\\PostDetailsViewModel.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\PostDetailsViewModel.cs",
+              "RelativeToolTip": "App.Domain\\ViewModels\\Post\\PostDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T13:09:22.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\Details.cshtml",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\Details.cshtml",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\Details.cshtml",
-              "RelativeToolTip": "App.Presentation\\Pages\\Post\\Details.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAkwCUAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T13:03:00.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Interfaces\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "App.Application\\Interfaces\\ICategoryService.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Interfaces\\ICategoryService.cs",
-              "RelativeToolTip": "App.Application\\Interfaces\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T20:27:47.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Writer\\Index.cshtml.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Index.cshtml.cs",
-              "RelativeToolTip": "App.Presentation\\Pages\\Writer\\Index.cshtml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwCEAAAAIAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Verifier\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Verifier\\Index.cshtml.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Verifier\\Index.cshtml.cs",
+              "RelativeToolTip": "App.Presentation\\Pages\\Verifier\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T09:44:24.745Z",
+              "WhenOpened": "2025-11-25T18:35:06.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PostRepository.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Repositories\\PostRepository.cs",
-              "RelativeDocumentMoniker": "App.Data\\Repositories\\PostRepository.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Repositories\\PostRepository.cs",
-              "RelativeToolTip": "App.Data\\Repositories\\PostRepository.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEwAAAAlAAAAAAAAAA==",
+              "Title": "GetPostViewModel.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\GetPostViewModel.cs",
+              "RelativeDocumentMoniker": "App.Domain\\ViewModels\\Post\\GetPostViewModel.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\GetPostViewModel.cs",
+              "RelativeToolTip": "App.Domain\\ViewModels\\Post\\GetPostViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:21:09.877Z",
+              "WhenOpened": "2025-11-23T21:50:25.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "App.Application\\Services\\CategoryService.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Services\\CategoryService.cs",
-              "RelativeToolTip": "App.Application\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACYAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T20:39:54.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "PostService.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Services\\PostService.cs",
               "RelativeDocumentMoniker": "App.Application\\Services\\PostService.cs",
               "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Services\\PostService.cs",
               "RelativeToolTip": "App.Application\\Services\\PostService.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAApwCgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T21:41:36.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Interfaces\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Interfaces\\ICategoryRepository.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Interfaces\\ICategoryRepository.cs",
-              "RelativeToolTip": "App.Domain\\Interfaces\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "App.Data\\Repositories\\PostRepository.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "App.Data\\Repositories\\PostRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAApwCQAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T20:26:44.053Z",
+              "WhenOpened": "2025-11-23T21:21:09.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Persistence\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "App.Data\\Persistence\\AppDbContext.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Persistence\\AppDbContext.cs",
-              "RelativeToolTip": "App.Data\\Persistence\\AppDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIAwwB0AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PostApproved.cshtml.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Verifier\\PostApproved.cshtml.cs",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Verifier\\PostApproved.cshtml.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Verifier\\PostApproved.cshtml.cs",
+              "RelativeToolTip": "App.Presentation\\Pages\\Verifier\\PostApproved.cshtml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T15:38:22.388Z",
+              "WhenOpened": "2025-11-25T18:41:21.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IPostRepository.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Interfaces\\IPostRepository.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Interfaces\\IPostRepository.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Interfaces\\IPostRepository.cs",
-              "RelativeToolTip": "App.Domain\\Interfaces\\IPostRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "App.Presentation\\Program.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Program.cs",
+              "RelativeToolTip": "App.Presentation\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAD4vx0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:10:26.728Z",
+              "WhenOpened": "2025-11-23T17:03:53.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IPostService.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Interfaces\\IPostService.cs",
-              "RelativeDocumentMoniker": "App.Application\\Interfaces\\IPostService.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Interfaces\\IPostService.cs",
-              "RelativeToolTip": "App.Application\\Interfaces\\IPostService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "DeletePost.cshtml.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\DeletePost.cshtml.cs",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\DeletePost.cshtml.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\DeletePost.cshtml.cs",
+              "RelativeToolTip": "App.Presentation\\Pages\\Post\\DeletePost.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:34:20.69Z",
+              "WhenOpened": "2025-11-24T13:04:30.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PostDetails.cshtml",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\PostDetails.cshtml",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Writer\\PostDetails.cshtml",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\PostDetails.cshtml",
-              "RelativeToolTip": "App.Presentation\\Pages\\Writer\\PostDetails.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T09:54:19.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Profile.cshtml.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Profile.cshtml.cs",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Writer\\Profile.cshtml.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Profile.cshtml.cs",
-              "RelativeToolTip": "App.Presentation\\Pages\\Writer\\Profile.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "CreatePost.cshtml.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\CreatePost.cshtml.cs",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\CreatePost.cshtml.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\CreatePost.cshtml.cs",
+              "RelativeToolTip": "App.Presentation\\Pages\\Post\\CreatePost.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T22:07:40.081Z",
+              "WhenOpened": "2025-11-24T13:04:22.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 9,
               "Title": "CreatePost.cshtml",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\CreatePost.cshtml",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\CreatePost.cshtml",
@@ -565,59 +493,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DeletePost.cshtml",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\DeletePost.cshtml",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\DeletePost.cshtml",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\DeletePost.cshtml",
-              "RelativeToolTip": "App.Presentation\\Pages\\Post\\DeletePost.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T13:03:39.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PostDetails.cshtml.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\PostDetails.cshtml.cs",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Writer\\PostDetails.cshtml.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\PostDetails.cshtml.cs",
-              "RelativeToolTip": "App.Presentation\\Pages\\Writer\\PostDetails.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "RoleEnum.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Enum\\RoleEnum.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Enum\\RoleEnum.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Enum\\RoleEnum.cs",
+              "RelativeToolTip": "App.Domain\\Enum\\RoleEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T09:54:35.541Z",
+              "WhenOpened": "2025-11-23T15:19:58.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Index.cshtml",
-              "RelativeToolTip": "App.Presentation\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Writer\\Index.cshtml.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Index.cshtml.cs",
+              "RelativeToolTip": "App.Presentation\\Pages\\Writer\\Index.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T09:44:24.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPostService.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Interfaces\\IPostService.cs",
+              "RelativeDocumentMoniker": "App.Application\\Interfaces\\IPostService.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Interfaces\\IPostService.cs",
+              "RelativeToolTip": "App.Application\\Interfaces\\IPostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T21:34:20.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Interfaces\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Interfaces\\IPostRepository.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Interfaces\\IPostRepository.cs",
+              "RelativeToolTip": "App.Domain\\Interfaces\\IPostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T21:10:26.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\Details.cshtml",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\Details.cshtml",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\Details.cshtml",
+              "RelativeToolTip": "App.Presentation\\Pages\\Post\\Details.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T20:16:14.151Z",
+              "WhenOpened": "2025-11-24T13:03:00.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EditPost.cshtml",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\EditPost.cshtml",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\EditPost.cshtml",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\EditPost.cshtml",
-              "RelativeToolTip": "App.Presentation\\Pages\\Post\\EditPost.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T13:03:51.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 17,
               "Title": "EditPost.cshtml.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\EditPost.cshtml.cs",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\EditPost.cshtml.cs",
@@ -630,33 +571,296 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DeletePost.cshtml.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\DeletePost.cshtml.cs",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\DeletePost.cshtml.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\DeletePost.cshtml.cs",
-              "RelativeToolTip": "App.Presentation\\Pages\\Post\\DeletePost.cshtml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "PostApproved.cshtml",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Verifier\\PostApproved.cshtml",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Verifier\\PostApproved.cshtml",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Verifier\\PostApproved.cshtml",
+              "RelativeToolTip": "App.Presentation\\Pages\\Verifier\\PostApproved.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T18:41:18.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditPost.cshtml",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\EditPost.cshtml",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\EditPost.cshtml",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\EditPost.cshtml",
+              "RelativeToolTip": "App.Presentation\\Pages\\Post\\EditPost.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T13:03:51.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Verifier\\Index.cshtml",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Verifier\\Index.cshtml",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Verifier\\Index.cshtml",
+              "RelativeToolTip": "App.Presentation\\Pages\\Verifier\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAADEAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T18:34:53.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PersianDateExtensionMethod.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Utils\\PersianDateExtensionMethod.cs",
+              "RelativeDocumentMoniker": "App.Application\\Utils\\PersianDateExtensionMethod.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Utils\\PersianDateExtensionMethod.cs",
+              "RelativeToolTip": "App.Application\\Utils\\PersianDateExtensionMethod.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAD4vzQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T13:04:30.962Z",
+              "WhenOpened": "2025-11-23T23:28:24.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "App.Presentation\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBwAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T09:44:35.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "App.Presentation\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T09:38:27.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "App.Presentation\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Properties\\launchSettings.json",
+              "RelativeToolTip": "App.Presentation\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-25T18:59:10.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "CreatePost.cshtml.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\CreatePost.cshtml.cs",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\CreatePost.cshtml.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\CreatePost.cshtml.cs",
-              "RelativeToolTip": "App.Presentation\\Pages\\Post\\CreatePost.cshtml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAADYAAAAyAAAAAAAAAA==",
+              "Title": "UpdatePostViewModel.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\UpdatePostViewModel.cs",
+              "RelativeDocumentMoniker": "App.Domain\\ViewModels\\Post\\UpdatePostViewModel.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\UpdatePostViewModel.cs",
+              "RelativeToolTip": "App.Domain\\ViewModels\\Post\\UpdatePostViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T13:04:22.606Z",
+              "WhenOpened": "2025-11-23T21:16:14.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Profile.cshtml",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Writer\\Profile.cshtml",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Profile.cshtml",
+              "RelativeToolTip": "App.Presentation\\Pages\\Writer\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T22:03:18.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DeletePostViewModel.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\DeletePostViewModel.cs",
+              "RelativeDocumentMoniker": "App.Domain\\ViewModels\\Post\\DeletePostViewModel.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\DeletePostViewModel.cs",
+              "RelativeToolTip": "App.Domain\\ViewModels\\Post\\DeletePostViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T21:14:05.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Entities\\Post.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Entities\\Post.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Entities\\Post.cs",
+              "RelativeToolTip": "App.Domain\\Entities\\Post.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T14:35:46.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SearchAndSortViewModel.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\SearchAndSortViewModel.cs",
+              "RelativeDocumentMoniker": "App.Domain\\ViewModels\\Post\\SearchAndSortViewModel.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\SearchAndSortViewModel.cs",
+              "RelativeToolTip": "App.Domain\\ViewModels\\Post\\SearchAndSortViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T10:01:03.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\CategoryAgg\\Index.cshtml",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\CategoryAgg\\Index.cshtml",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\CategoryAgg\\Index.cshtml",
+              "RelativeToolTip": "App.Presentation\\Pages\\CategoryAgg\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T16:23:57.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "App.Application\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "App.Application\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T20:27:47.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Index.cshtml",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Writer\\Index.cshtml",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Index.cshtml",
+              "RelativeToolTip": "App.Presentation\\Pages\\Writer\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T09:34:52.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "App.Application\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Services\\CategoryService.cs",
+              "RelativeToolTip": "App.Application\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T20:39:54.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "App.Domain\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T20:26:44.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "App.Data\\Persistence\\AppDbContext.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "App.Data\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIAwwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T15:38:22.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PostDetails.cshtml",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\PostDetails.cshtml",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Writer\\PostDetails.cshtml",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\PostDetails.cshtml",
+              "RelativeToolTip": "App.Presentation\\Pages\\Writer\\PostDetails.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T09:54:19.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Profile.cshtml.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Profile.cshtml.cs",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Writer\\Profile.cshtml.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\Profile.cshtml.cs",
+              "RelativeToolTip": "App.Presentation\\Pages\\Writer\\Profile.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T22:07:40.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DeletePost.cshtml",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\DeletePost.cshtml",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\DeletePost.cshtml",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\DeletePost.cshtml",
+              "RelativeToolTip": "App.Presentation\\Pages\\Post\\DeletePost.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T13:03:39.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PostDetails.cshtml.cs",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\PostDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Writer\\PostDetails.cshtml.cs",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Writer\\PostDetails.cshtml.cs",
+              "RelativeToolTip": "App.Presentation\\Pages\\Writer\\PostDetails.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T09:54:35.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Index.cshtml",
+              "RelativeToolTip": "App.Presentation\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T20:16:14.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\Account\\Login.cshtml",
@@ -664,38 +868,11 @@
               "RelativeToolTip": "App.Presentation\\Pages\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T15:43:35.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T15:43:35.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "App.Presentation\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBkAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T09:44:35.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "App.Presentation\\Pages\\Index.cshtml.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "App.Presentation\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T09:38:27.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 40,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\Account\\Login.cshtml.cs",
@@ -703,12 +880,11 @@
               "RelativeToolTip": "App.Presentation\\Pages\\Account\\Login.cshtml.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAIwDQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T15:43:41.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T15:43:41.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 42,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\CategoryAgg\\Edit.cshtml",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\CategoryAgg\\Edit.cshtml",
@@ -720,7 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 43,
               "Title": "FileService.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Services\\FileService.cs",
               "RelativeDocumentMoniker": "App.Application\\Services\\FileService.cs",
@@ -732,19 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "App.Presentation\\Program.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Program.cs",
-              "RelativeToolTip": "App.Presentation\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAD4vx0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T17:03:53.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 45,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\CategoryAgg\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\CategoryAgg\\Delete.cshtml.cs",
@@ -756,7 +920,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 44,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\CategoryAgg\\Create.cshtml",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\CategoryAgg\\Create.cshtml",
@@ -768,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 46,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\CategoryAgg\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\CategoryAgg\\Create.cshtml.cs",
@@ -780,7 +944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 47,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\CategoryAgg\\Delete.cshtml",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\CategoryAgg\\Delete.cshtml",
@@ -792,7 +956,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 48,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\CategoryAgg\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\CategoryAgg\\Index.cshtml.cs",
@@ -804,7 +968,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 49,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\Account\\Logout.cshtml.cs",
@@ -816,7 +980,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 50,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\Account\\Logout.cshtml",
@@ -828,7 +992,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 52,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\CategoryAgg\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\CategoryAgg\\Edit.cshtml.cs",
@@ -840,7 +1004,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 51,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "App.Domain\\Entities\\Category.cs",
@@ -852,19 +1016,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "RoleEnum.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Enum\\RoleEnum.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Enum\\RoleEnum.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Enum\\RoleEnum.cs",
-              "RelativeToolTip": "App.Domain\\Enum\\RoleEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T15:19:58.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 55,
               "Title": "GetUserViewModel.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\User\\GetUserViewModel.cs",
               "RelativeDocumentMoniker": "App.Domain\\ViewModels\\User\\GetUserViewModel.cs",
@@ -876,7 +1028,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 53,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Account\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\Account\\AccessDenied.cshtml",
@@ -888,7 +1040,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 54,
               "Title": "LoginUserViewModel.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\User\\LoginUserViewModel.cs",
               "RelativeDocumentMoniker": "App.Domain\\ViewModels\\User\\LoginUserViewModel.cs",
@@ -900,7 +1052,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 56,
               "Title": "AppUser.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "App.Domain\\Entities\\AppUser.cs",
@@ -912,7 +1064,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 57,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "App.Data\\Repositories\\UserRepository.cs",
@@ -924,7 +1076,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 58,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "App.Application\\Services\\UserService.cs",
@@ -936,7 +1088,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 60,
               "Title": "RegisterUserViewModel.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\User\\RegisterUserViewModel.cs",
               "RelativeDocumentMoniker": "App.Domain\\ViewModels\\User\\RegisterUserViewModel.cs",
@@ -948,7 +1100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 61,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\Account\\Register.cshtml.cs",
@@ -960,7 +1112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 59,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\Account\\Register.cshtml",
@@ -972,7 +1124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 62,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Presentation\\Pages\\Post\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "App.Presentation\\Pages\\Post\\Details.cshtml.cs",
@@ -984,31 +1136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "PostDetailsViewModel.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\PostDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "App.Domain\\ViewModels\\Post\\PostDetailsViewModel.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\PostDetailsViewModel.cs",
-              "RelativeToolTip": "App.Domain\\ViewModels\\Post\\PostDetailsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T13:09:22.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "PersianDateExtensionMethod.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Utils\\PersianDateExtensionMethod.cs",
-              "RelativeDocumentMoniker": "App.Application\\Utils\\PersianDateExtensionMethod.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Utils\\PersianDateExtensionMethod.cs",
-              "RelativeToolTip": "App.Application\\Utils\\PersianDateExtensionMethod.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T23:28:24.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "ApplicationServicesRegistration.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\ApplicationServicesRegistration.cs",
               "RelativeDocumentMoniker": "App.Application\\ApplicationServicesRegistration.cs",
@@ -1020,7 +1148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Profiles\\MappingProfile.cs",
               "RelativeDocumentMoniker": "App.Application\\Profiles\\MappingProfile.cs",
@@ -1032,31 +1160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "GetPostViewModel.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\GetPostViewModel.cs",
-              "RelativeDocumentMoniker": "App.Domain\\ViewModels\\Post\\GetPostViewModel.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\GetPostViewModel.cs",
-              "RelativeToolTip": "App.Domain\\ViewModels\\Post\\GetPostViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:50:25.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "DeletePostViewModel.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\DeletePostViewModel.cs",
-              "RelativeDocumentMoniker": "App.Domain\\ViewModels\\Post\\DeletePostViewModel.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\DeletePostViewModel.cs",
-              "RelativeToolTip": "App.Domain\\ViewModels\\Post\\DeletePostViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:14:05.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 65,
               "Title": "CategoryConfiguration.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Configurations\\CategoryConfiguration.cs",
               "RelativeDocumentMoniker": "App.Data\\Configurations\\CategoryConfiguration.cs",
@@ -1068,7 +1172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 67,
               "Title": "PostConfiguration.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Configurations\\PostConfiguration.cs",
               "RelativeDocumentMoniker": "App.Data\\Configurations\\PostConfiguration.cs",
@@ -1080,7 +1184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 66,
               "Title": "AppUserConfiguration.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Configurations\\AppUserConfiguration.cs",
               "RelativeDocumentMoniker": "App.Data\\Configurations\\AppUserConfiguration.cs",
@@ -1092,31 +1196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "UpdatePostViewModel.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\UpdatePostViewModel.cs",
-              "RelativeDocumentMoniker": "App.Domain\\ViewModels\\Post\\UpdatePostViewModel.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\UpdatePostViewModel.cs",
-              "RelativeToolTip": "App.Domain\\ViewModels\\Post\\UpdatePostViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:16:14.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "Post.cs",
-              "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Entities\\Post.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Entities\\Post.cs",
-              "ToolTip": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Entities\\Post.cs",
-              "RelativeToolTip": "App.Domain\\Entities\\Post.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T14:35:46.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 68,
               "Title": "CreatePostViewModel.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\Post\\CreatePostViewModel.cs",
               "RelativeDocumentMoniker": "App.Domain\\ViewModels\\Post\\CreatePostViewModel.cs",
@@ -1128,7 +1208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 81,
               "Title": "20251124093626_init.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Data\\Migrations\\20251124093626_init.cs",
               "RelativeDocumentMoniker": "App.Data\\Migrations\\20251124093626_init.cs",
@@ -1140,7 +1220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 69,
               "Title": "HashHelper.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Utils\\HashHelper.cs",
               "RelativeDocumentMoniker": "App.Application\\Utils\\HashHelper.cs",
@@ -1152,7 +1232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 70,
               "Title": "UpdatePasswordUserViewModel.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\User\\UpdatePasswordUserViewModel.cs",
               "RelativeDocumentMoniker": "App.Domain\\ViewModels\\User\\UpdatePasswordUserViewModel.cs",
@@ -1164,7 +1244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 71,
               "Title": "UpdateUserByAdminViewModel.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\User\\UpdateUserByAdminViewModel.cs",
               "RelativeDocumentMoniker": "App.Domain\\ViewModels\\User\\UpdateUserByAdminViewModel.cs",
@@ -1176,7 +1256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 72,
               "Title": "DeleteUserByAdmin.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\User\\DeleteUserByAdmin.cs",
               "RelativeDocumentMoniker": "App.Domain\\ViewModels\\User\\DeleteUserByAdmin.cs",
@@ -1188,7 +1268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 73,
               "Title": "CreateUserByAdmin.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\ViewModels\\User\\CreateUserByAdmin.cs",
               "RelativeDocumentMoniker": "App.Domain\\ViewModels\\User\\CreateUserByAdmin.cs",
@@ -1200,7 +1280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 74,
               "Title": "IFileService.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Interfaces\\IFileService.cs",
               "RelativeDocumentMoniker": "App.Application\\Interfaces\\IFileService.cs",
@@ -1212,7 +1292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 75,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "App.Domain\\Interfaces\\IUserRepository.cs",
@@ -1224,7 +1304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 76,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "App.Application\\Interfaces\\IUserService.cs",
@@ -1236,7 +1316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 77,
               "Title": "AdminOperationLog.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\Entities\\AdminOperationLog.cs",
               "RelativeDocumentMoniker": "App.Domain\\Entities\\AdminOperationLog.cs",
@@ -1248,7 +1328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 78,
               "Title": "App.Application.csproj",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Application\\App.Application.csproj",
               "RelativeDocumentMoniker": "App.Application\\App.Application.csproj",
@@ -1260,7 +1340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 79,
               "Title": "DependencyContainer.cs",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.IoC\\DependencyContainer.cs",
               "RelativeDocumentMoniker": "App.IoC\\DependencyContainer.cs",
@@ -1272,7 +1352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 80,
               "Title": "App.Domain.csproj",
               "DocumentMoniker": "D:\\MaktabSharif\\dev\\projects\\HW21\\Weblog\\App.Domain\\App.Domain.csproj",
               "RelativeDocumentMoniker": "App.Domain\\App.Domain.csproj",

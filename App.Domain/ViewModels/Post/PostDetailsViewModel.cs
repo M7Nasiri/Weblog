@@ -13,7 +13,9 @@ namespace App.Domain.ViewModels.Post
         public DateTime CreatedAt { get; set; }
         public string? ImagePath { get; set; }
         //public int WriterUserId { get; set; }
-        public string CategoryName { get; set; }
+        public string? CategoryName { get; set; }
+        public int CategoryId { get; set; }
         public string WriterUserName { get; set; }
+        public bool IsApproved { get; set; }
     }
 }

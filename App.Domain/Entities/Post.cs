@@ -16,6 +16,7 @@ namespace App.Domain.Entities
         public int ViewCount { get; set; }
         public DateTime CreatedAt { get; set; }
         public string? ImagePath { get; set; }
+        public bool IsApproved { get; set; }
 
         public int WriterUserId { get; set; }
         public int? VerifierUserId { get; set; }

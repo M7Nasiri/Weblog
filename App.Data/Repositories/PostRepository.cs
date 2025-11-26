@@ -34,7 +34,7 @@ namespace App.Data.Repositories
 
         public List<GetPostViewModel> GetAll()
         {
-            var posts = context.Posts.Include(p=>p.Writer).Include(p=>p.Cateogry).OrderByDescending(p=>p.CreatedAt).ToList();
+            var posts = context.Posts.Include(p=>p.Writer).Include(p=>p.Cateogry).Include(p=>p.Verifier).OrderByDescending(p=>p.CreatedAt).ToList();
             return mapper.Map<List<GetPostViewModel>>(posts);
         }
 
@@ -79,6 +79,23 @@ namespace App.Data.Repositories
                 iQres = iQres.Where(p=>p.CategoryId ==sSModel.SortType);
             }
             return mapper.Map<List<GetPostViewModel>>(iQres);
+
+        }
+
+        public List<GetPostViewModel> GetAll(bool isApproved)
+        {
+            var posts = context.Posts.Where(p => p.IsApproved == isApproved ).Include(p => p.Cateogry)
+               .Include(p => p.Writer).Include(p => p.Verifier).OrderByDescending(p => p.CreatedAt)
+              .ToList();
+            return mapper.Map<List<GetPostViewModel>>(posts);
+        }
+
+        public bool Approved(int id, bool isApproved,int userId)
+        {
+
+            return context.Posts.Where(p => p.Id == id).ExecuteUpdate(setters => setters
+            .SetProperty((p => p.IsApproved), isApproved)
+            .SetProperty((p => p.VerifierUserId), userId)) > 0;
 
         }
     }

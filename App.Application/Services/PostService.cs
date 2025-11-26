@@ -9,6 +9,11 @@ namespace App.Application.Services
 {
     public class PostService(IPostRepository postRepository,IFileService fileService,ICategoryService categoryService) : IPostService
     {
+        public bool Approved(int id, bool isApproved, int userId)
+        {
+            return postRepository.Approved(id, isApproved,userId);
+        }
+
         public bool Create(CreatePostViewModel model)
         {
             model.Summary = postRepository.GetSummary(model.Description);
@@ -39,6 +44,11 @@ namespace App.Application.Services
         public List<GetPostViewModel> GetAll(int userId)
         {
             return postRepository.GetAll(userId);
+        }
+
+        public List<GetPostViewModel> GetAll(bool isApproved)
+        {
+            return postRepository.GetAll(isApproved);
         }
 
         public List<GetPostViewModel> GetBySearchAndSort(int userId, SearchAndSortViewModel sSModel)

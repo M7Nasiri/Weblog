@@ -13,8 +13,11 @@ namespace App.Domain.Interfaces
         public GetPostViewModel Get(int id);
         public List<GetPostViewModel> GetAll();
         public List<GetPostViewModel> GetAll(int userId);
+        public List<GetPostViewModel> GetAll(bool isApproved);
+
         public string GetSummary(string description);
         bool UpdateViewCount(int id,int count);
+        bool Approved(int id,bool isApproved,int userId);
 
         List<GetPostViewModel> GetBySearchAndSort(int userId, SearchAndSortViewModel sSModel);
 

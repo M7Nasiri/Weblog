@@ -1,0 +1,64 @@
+﻿@page
+@using App.Application.Utils
+@model App.Presentation.Pages.Verifier.IndexModel
+@{
+    ViewData["Title"] = "مدیریت پست‌ها";
+}
+
+<div class="container">
+
+    <h2 class="my-4">مدیریت پست‌ها</h2>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>عنوان پست</th>
+                <th>دسته‌بندی</th>
+                <th>تاریخ ایجاد</th>
+                <th>تعداد مشاهده</th>
+                <th>نویسنده</th>
+                <th>تصویر</th>
+                <th>بررسی کننده</th>
+                <th>وضعیت</th>
+                <th>عملیات</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Posts != null && Model.Posts.Any())
+            {
+                @foreach (var post in Model.Posts)
+                {
+                    <tr>
+                        <td>@post.Id</td>
+                        <td>@post.Title</td>
+                        <td>@post.CategoryName</td>
+                        <td>@post.CreatedAt.ToPersianString()</td>
+                        <td>@post.ViewCount</td>
+                        <td>@post.WriterUserName</td>
+                        <td><img src="@post.ImagePath" class="img-thumbnail" style="width:50px;"></td>
+                        <td>@post.VerifierUserName</td>
+                        <td>@(post.IsApproved?"تایید شده":"تایید نشده")</td>
+                        <td>
+                            <!-- دکمه تایید -->
+                            @if (!post.IsApproved)
+                            {
+                                <a class="btn btn-success" asp-page="/Verifier/PostApproved" asp-route-id="@post.Id">تایید</a>
+                            }
+                            else
+                            {
+                                <a class="btn btn-warning" asp-page="/Verifier/PostApproved" asp-route-id="@post.Id">عدم تایید</a>
+                                
+                            }
+                            <!-- دکمه عدم تایید -->
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>اطلاعاتی برای نمایش وجود ندارد .</tr>
+            }
+        </tbody>
+    </table>
+</div>

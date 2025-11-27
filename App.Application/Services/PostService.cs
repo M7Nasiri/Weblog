@@ -56,6 +56,11 @@ namespace App.Application.Services
             return postRepository.GetBySearchAndSort(userId,sSModel);
         }
 
+        public List<int> GetPostIdsByUserId(int userId)
+        {
+            return postRepository.GetPostIdsByUserId(userId);
+        }
+
         public bool Update(int id, int userId,UpdatePostViewModel model)
         {
             var post = postRepository.Get(id);

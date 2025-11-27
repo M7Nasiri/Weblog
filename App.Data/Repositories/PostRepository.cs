@@ -99,5 +99,10 @@ namespace App.Data.Repositories
             .SetProperty((p => p.VerifierUserId), userId)) > 0;
 
         }
+
+        public List<int> GetPostIdsByUserId(int userId)
+        {
+            return context.Posts.Where(p => p.WriterUserId == userId).Select(p => p.Id).ToList();
+        }
     }
 }

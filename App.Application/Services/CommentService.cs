@@ -7,7 +7,7 @@ using System.Text;
 
 namespace App.Application.Services
 {
-    public class CommentService(ICommentRepository commentRepository) : ICommentService
+    public class CommentService(ICommentRepository commentRepository,IPostService postService) : ICommentService
     {
         public bool Add(CreateCommentViewModel model)
         {
@@ -29,9 +29,10 @@ namespace App.Application.Services
             return commentRepository.Get(id);
         }
 
-        public List<GetCommentViewModel> GetAll()
+        public List<GetCommentViewModel> GetAll(int userId)
         {
-            return commentRepository.GetAll();
+            List<int> postIds = postService.GetPostIdsByUserId(userId);
+            return commentRepository.GetAll(postIds);
         }
     }
 }

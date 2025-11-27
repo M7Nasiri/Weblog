@@ -8,7 +8,7 @@ namespace App.Application.Interfaces
     public interface ICommentService
     {
         bool Add(CreateCommentViewModel model);
-        List<GetCommentViewModel> GetAll();
+        List<GetCommentViewModel> GetAll(int userId);
         GetCommentViewModel Get(int id);
 
         bool ApprovingComment(ApprovedCommentViewModel model);

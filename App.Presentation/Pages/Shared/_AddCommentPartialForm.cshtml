@@ -13,19 +13,19 @@
 
     <div class="mb-3">
         <label asp-for="CommentRegistererFullName" class="form-label">نام و نام خانوادگی</label>
-        <input asp-for="CommentRegistererFullName" class="form-control" />
+        <input asp-for="CommentRegistererFullName" class="form-control"  />
         <span asp-validation-for="CommentRegistererFullName" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
         <label asp-for="CommentRegistererEmail" class="form-label">ایمیل</label>
-        <input asp-for="CommentRegistererEmail" class="form-control" />
+        <input asp-for="CommentRegistererEmail" class="form-control"  />
         <span asp-validation-for="CommentRegistererEmail" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
         <label asp-for="Rate" class="form-label">امتیازدهی</label>
-        <select asp-for="Rate" class="form-select">
+        <select asp-for="Rate" class="form-select" >
             <option value="">انتخاب امتیاز</option>
             <option value="1">۱ - خیلی بد</option>
             <option value="2">۲ - بد</option>
@@ -38,7 +38,7 @@
 
     <div class="mb-3">
         <label asp-for="Text" class="form-label">متن نظر</label>
-        <textarea asp-for="Text" rows="4" class="form-control"></textarea>
+        <textarea asp-for="Text" rows="4" class="form-control" ></textarea>
         <span asp-validation-for="Text" class="text-danger"></span>
     </div>
 
@@ -46,6 +46,9 @@
 </form>
 
 @section Scripts {
-    <script src="d:\maktabsharif\dev\projects\hw21\weblog\app.presentation\wwwroot\lib\jquery\dist\jquery.min.js"></script>
-    <script src="~/js/customScript.js"></script>
+   @*  <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script> *@
+    <partial name="_ValidationScriptsPartial" />
+
 }

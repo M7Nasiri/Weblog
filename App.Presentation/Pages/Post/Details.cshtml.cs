@@ -1,4 +1,4 @@
-using App.Application.Interfaces;
+﻿using App.Application.Interfaces;
 using App.Domain.Entities;
 using App.Domain.ViewModels.Comment;
 using App.Domain.ViewModels.Post;
@@ -52,6 +52,34 @@ namespace App.Presentation.Pages.Post
 
         public IActionResult OnPostCreateComment(int PostId,int UserId)
         {
+            ModelState.Clear();
+
+            TryValidateModel(addCommentModel, nameof(addCommentModel));
+
+            if (!ModelState.IsValid)
+            {
+                var getPost = postService.Get(PostId);
+
+                model = new PostDetailsViewModel
+                {
+                    CategoryName = getPost.CategoryName,
+                    CreatedAt = getPost.CreatedAt,
+                    Description = getPost.Description,
+                    Id = PostId,
+                    ImagePath = getPost.ImagePath,
+                    Title = getPost.Title,
+                    ViewCount = getPost.ViewCount,
+                    WriterUserName = getPost.WriterUserName
+                };
+
+                // نظرات
+                postComments = commentService.CommentsByPostId(PostId);
+
+                // مدل کامنت را هم دوباره مقداردهی کن
+                addCommentModel.PostId = PostId;
+                addCommentModel.UserId = UserId;
+                return Page();
+            }
             if (commentService.Add(addCommentModel))
             {
                 return RedirectToPage("/Post/Details", new { id = PostId });

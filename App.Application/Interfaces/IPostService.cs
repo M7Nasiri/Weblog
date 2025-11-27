@@ -20,5 +20,6 @@ namespace App.Application.Interfaces
         bool Approved(int id, bool isApproved,int userId);
 
         List<GetPostViewModel> GetBySearchAndSort(int userId,SearchAndSortViewModel sSModel);
+        List<int> GetPostIdsByUserId(int userId);
     }
 }

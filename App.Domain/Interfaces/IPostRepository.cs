@@ -22,6 +22,7 @@ namespace App.Domain.Interfaces
 
 
         List<GetPostViewModel> GetBySearchAndSort(int userId, SearchAndSortViewModel sSModel);
+        List<int> GetPostIdsByUserId(int userId);
 
 
     }

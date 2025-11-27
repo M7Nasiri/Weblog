@@ -36,10 +36,18 @@ namespace App.Data.Repositories
                 .Include(c => c.CommentRegister).Where(c=>c.Id == id).FirstOrDefault());
         }
 
+        public List<GetCommentViewModel> GetAll(List<int> postIds)
+        {
+            var result = mapper.Map<List<GetCommentViewModel>>(context.Comments
+                .Include(c => c.Post).Include(c => c.CommentRegister).Where(c => postIds.Contains(c.PostId)).ToList());
+            return result;
+        }
+
         public List<GetCommentViewModel> GetAll()
         {
-            var result = mapper.Map<List<GetCommentViewModel>>(context.Comments.Include(c => c.Post).Include(c => c.CommentRegister).ToList());
-            return result;
+            return mapper.Map<List<GetCommentViewModel>>(context.Comments
+                .Include(c => c.Post).Include(c => c.CommentRegister).ToList());
+
         }
     }
 }

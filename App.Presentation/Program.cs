@@ -27,17 +27,19 @@ builder.Services.AddAuthentication(options =>
     options.ExpireTimeSpan = TimeSpan.FromMinutes(43200);
 });
 builder.Services.AddDbContext<AppDbContext>(options =>
-options.UseSqlServer("Server=LAPTOP-6U51JF85\\SQL2022;Database=Maktab135_HW_21;Trusted_Connection=True;TrustServerCertificate=True;"));
+options.UseSqlServer("Server=LAPTOP-6U51JF85\\SQL2022;Database=Maktab135_HW_21_V1;Trusted_Connection=True;TrustServerCertificate=True;"));
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IPostRepository,PostRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IPostService, PostService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IFileService, FileService>();
+builder.Services.AddScoped<ICommentService, CommentService>();
 
 
 

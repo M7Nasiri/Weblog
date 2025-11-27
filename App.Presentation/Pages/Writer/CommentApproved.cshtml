@@ -1,0 +1,55 @@
+﻿@page
+@model App.Presentation.Pages.Writer.CommentApprovedModel
+@{
+    ViewData["Title"] = "تایید کامنت";
+}
+
+ <div class="container">
+    <h2 class="my-4">تایید کامنت</h2>
+
+    <form method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Comment.Id" />
+
+
+
+        <div class="form-group">
+            <label for="Title">عنوان پست</label>
+            <input type="text" class="form-control" asp-for="Comment.PostTitle" readonly/>
+        </div>
+        <div class="form-group">
+            <label for="Title">خلاصه پست</label>
+            <input type="text" class="form-control" asp-for="Comment.PostText" readonly/>
+        </div>
+        <hr />
+
+        <div class="form-group">
+            <label for="Title">نام کامل</label>
+            <input type="text" class="form-control" asp-for="Comment.CommentRegistererFullName" readonly/>
+        </div>
+        <div class="form-group">
+            <label for="Title">ایمیل</label>
+            <input type="text" class="form-control" asp-for="Comment.CommentRegistererEmail" readonly/>
+        </div>
+        
+
+        <div class="form-group">
+            <label for="Summary">متن اصلی</label>
+            <textarea class="form-control" asp-for="Comment.Text" readonly></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="Title">امتیاز</label>
+            <input type="text" class="form-control" asp-for="Comment.Rate" readonly />
+        </div>
+
+
+        <div class="form-group">
+            <label for="CategoryId">تایید/عدم تایید</label>
+            <input type="checkbox" asp-for="Comment.IsApproved" class="form-check" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">ثبت</button>
+    </form>
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+</div> 

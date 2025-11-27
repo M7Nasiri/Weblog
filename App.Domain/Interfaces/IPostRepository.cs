@@ -1,4 +1,5 @@
 ﻿using App.Domain.ViewModels.Post;
+using App.Domain.ViewModels.User;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,6 +19,7 @@ namespace App.Domain.Interfaces
         public string GetSummary(string description);
         bool UpdateViewCount(int id,int count);
         bool Approved(int id,bool isApproved,int userId);
+
 
         List<GetPostViewModel> GetBySearchAndSort(int userId, SearchAndSortViewModel sSModel);
 

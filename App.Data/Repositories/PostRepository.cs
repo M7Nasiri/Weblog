@@ -14,7 +14,7 @@ namespace App.Data.Repositories
     {
         public bool Create(CreatePostViewModel model)
         {
-            var post = mapper.Map<Post>(model);
+            var post = mapper.Map<PostAgg>(model);
             context.Posts.Add(post);
             return context.SaveChanges() > 0;
         }
@@ -28,7 +28,8 @@ namespace App.Data.Repositories
 
         public GetPostViewModel Get(int id)
         {
-            var post = context.Posts.Include(p => p.Cateogry).Include(p => p.Writer).Include(p => p.Verifier).FirstOrDefault(p => p.Id == id);
+            var post = context.Posts.Include(p => p.Cateogry).Include(p => p.Writer).Include(p => p.Verifier).Include(p=>p.Comments)
+                .FirstOrDefault(p => p.Id == id);
             return mapper.Map<GetPostViewModel>(post);
         }
 
@@ -68,7 +69,7 @@ namespace App.Data.Repositories
 
         public List<GetPostViewModel> GetBySearchAndSort(int userId,SearchAndSortViewModel sSModel)
         {
-            IQueryable<Post> iQres = context.Posts.Where(p => p.WriterUserId == userId).Include(p => p.Cateogry)
+            IQueryable<PostAgg> iQres = context.Posts.Where(p => p.WriterUserId == userId).Include(p => p.Cateogry)
                 .Include(p => p.Writer).Include(p => p.Verifier).OrderByDescending(p => p.CreatedAt); 
             if (!string.IsNullOrEmpty(sSModel.Title))
             {

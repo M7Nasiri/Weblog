@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -19,5 +20,6 @@ namespace App.Domain.ViewModels.Post
         public string WriterUserName { get; set; }
         public string? VerifierUserName { get; set; }
         public bool IsApproved { get; set; }
+        public List<CommentAgg> Comments { get; set; }
     }
 }

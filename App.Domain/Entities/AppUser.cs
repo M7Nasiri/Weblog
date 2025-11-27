@@ -13,8 +13,8 @@ namespace App.Domain.Entities
         public RoleEnum Role { get; set; }
         public bool RememberMe { get; set; }
         public bool IsDelete { get; set; }
-        public IList<Post>? WrittenPosts { get; set; }
-        public IList<Post>? VerifiednPosts { get; set; }
+        public IList<PostAgg>? WrittenPosts { get; set; }
+        public IList<PostAgg>? VerifiednPosts { get; set; }
         public IList<Category>? Cateogries { get; set; }
 
     }

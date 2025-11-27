@@ -113,8 +113,12 @@ namespace App.Data.Repositories
                         .ExecuteUpdate(setters => setters
                         .SetProperty((u => u.UserName), model.UserName)
                         .SetProperty((u => u.Password), model.Password)
-                        .SetProperty((u=>u.IsDelete),model.IsDelete)
                         .SetProperty((u=>u.Role),model.Role)) > 0;
+        }
+
+        public List<UserInfoForAdmin> GetUserInfosForAdmin(int userId)
+        {
+            return mapper.Map<List<UserInfoForAdmin>>(context.Users.Where(u=>u.Id!=userId).Include(u=>u.WrittenPosts).Include(u=>u.VerifiednPosts).ToList());
         }
     }
 }

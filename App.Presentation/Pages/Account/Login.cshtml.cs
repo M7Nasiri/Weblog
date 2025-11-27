@@ -58,7 +58,7 @@ namespace App.Presentation.Pages.Account
                 }
                 if(result.Role == RoleEnum.Admin)
                 {
-                    return RedirectToPage(ReturnUrl??"/Admin/Index");
+                    return RedirectToPage("/Admin/Index");
                 }
             }
             ModelState.AddModelError("", "نام کاربری یا رمز عبور اشتباه است.");

@@ -15,6 +15,7 @@ namespace App.Application.Interfaces
         public List<GetPostViewModel> GetAll(int userId);
         public List<GetPostViewModel> GetAll(bool isApproved);
 
+
         bool UpdateViewCount(int id,int count);
         bool Approved(int id, bool isApproved,int userId);
 

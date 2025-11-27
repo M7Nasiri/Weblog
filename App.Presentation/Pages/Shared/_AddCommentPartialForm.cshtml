@@ -1,0 +1,51 @@
+﻿@using App.Domain.ViewModels.Comment
+@model CreateCommentViewModel
+
+
+@section Styles{
+    <link rel="stylesheet" href="~/css/customStyle.css" />
+}
+<h4 class="mt-5">ارسال نظر</h4>
+<form method="post" asp-page-handler="CreateComment" class="mt-3">
+
+    <input type="hidden" asp-for="PostId" />
+    <input type="hidden" asp-for="UserId" />
+
+    <div class="mb-3">
+        <label asp-for="CommentRegistererFullName" class="form-label">نام و نام خانوادگی</label>
+        <input asp-for="CommentRegistererFullName" class="form-control" />
+        <span asp-validation-for="CommentRegistererFullName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="CommentRegistererEmail" class="form-label">ایمیل</label>
+        <input asp-for="CommentRegistererEmail" class="form-control" />
+        <span asp-validation-for="CommentRegistererEmail" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Rate" class="form-label">امتیازدهی</label>
+        <select asp-for="Rate" class="form-select">
+            <option value="">انتخاب امتیاز</option>
+            <option value="1">۱ - خیلی بد</option>
+            <option value="2">۲ - بد</option>
+            <option value="3">۳ - متوسط</option>
+            <option value="4">۴ - خوب</option>
+            <option value="5">۵ - عالی</option>
+        </select>
+        <span asp-validation-for="Rate" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Text" class="form-label">متن نظر</label>
+        <textarea asp-for="Text" rows="4" class="form-control"></textarea>
+        <span asp-validation-for="Text" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">ثبت نظر</button>
+</form>
+
+@section Scripts {
+    <script src="d:\maktabsharif\dev\projects\hw21\weblog\app.presentation\wwwroot\lib\jquery\dist\jquery.min.js"></script>
+    <script src="~/js/customScript.js"></script>
+}

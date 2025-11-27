@@ -1,0 +1,63 @@
+﻿@page
+@model App.Presentation.Pages.Admin.IndexModel
+@{
+    ViewData["Title"] = "مدیریت‌ کاربران";
+}
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-3">
+            <!-- دکمه افزودن دسته‌بندی جدید -->
+            @*     <a class="btn btn-success mb-3" asp-page-handler="CreateCategory">افزودن دسته‌بندی جدید</a>
+ *@
+            <h2 class="my-4">ایجاد کاربر جدید</h2>
+            <div class="form-group mt-3">
+                <a class="btn btn-primary mt-10" asp-page="/Admin/Create">افزودن</a>
+            </div>
+
+        </div>
+
+        <div class="col-9">
+            <h2 class="my-4">مدیریت کاربران</h2>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>نام کاربری</th>
+                        <th>نقش</th>
+                        <th>تعداد پست</th>
+                        <th>عملیات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.UserInfos != null && Model.UserInfos.Any())
+                    {
+                        @foreach (var user in Model.UserInfos)
+                        {
+                            <tr>
+                                <td>@user.Id</td>
+                                <td>@user.UserName</td>
+                                <td>@(user.Role == RoleEnum.NormalUser ? "کاربر عادی":user.Role == RoleEnum.Writer ?"نویسنده"
+                                    :user.Role == RoleEnum.Verifier?"بازبینی کننده":"مدیر")</td>
+                                <td>@(user.Role == RoleEnum.Writer?user.WriterPostCount:
+                                    user.Role ==RoleEnum.Verifier?user.VerifierPostCount:"0")</td>
+                                <td>
+                                    <!-- دکمه ویرایش -->
+                                    <a class="btn btn-warning" asp-page="/Admin/Update" asp-route-id="@user.Id">ویرایش</a>
+                                    <!-- دکمه حذف -->
+                                    <a class="btn btn-danger" asp-page="/Admin/Delete" asp-route-id="@user.Id">حذف</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>اطلاعاتی برای نمایش وجود ندارد .</tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

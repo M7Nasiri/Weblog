@@ -3,7 +3,7 @@ using App.Domain.ViewModels.Post;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace App.Presentation.Pages.Post
+namespace App.Presentation.Pages.Writer
 {
     public class PostDetailsModel(IPostService postService) : PageModel
     {

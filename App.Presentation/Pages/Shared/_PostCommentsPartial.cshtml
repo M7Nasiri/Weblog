@@ -1,0 +1,31 @@
+﻿@using App.Domain.ViewModels.Comment
+@model List<ShowCommentInPostDetails>
+
+@if (Model == null || !Model.Any())
+{
+    <p class="text-muted">هنوز نظری ثبت نشده است.</p>
+}
+else
+{
+    foreach (var c in Model)
+    {
+        <div class="card mb-3 border-0 border-bottom pb-3">
+
+            <div class="d-flex justify-content-between">
+                <h6 class="fw-bold">@c.CommentRegistererFullName</h6>
+                <span class="text-warning">
+                    @for (int i = 0; i < c.Rate; i++)
+                    {
+                        <span>&#9733;</span>
+                    }
+                </span>
+            </div>
+
+            <p class="small text-secondary">@c.CommentRegistererEmail</p>
+
+            <p>@c.Text</p>
+
+            <small class="text-muted">امتیاز: @c.Rate</small>
+        </div>
+    }
+}

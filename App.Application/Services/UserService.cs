@@ -12,6 +12,10 @@ namespace App.Application.Services
     {
         public int CreateUserByAdmin(int adminId, CreateUserByAdmin create)
         {
+            if (IsUserExist(create.UserName))
+            {
+                return 0;
+            }
             return userRepository.CreateUserByAdmin(adminId, create);
         }
 
@@ -38,6 +42,11 @@ namespace App.Application.Services
         public GetUserViewModel? GetUserById(int id)
         {
             return userRepository.GetUserById(id);
+        }
+
+        public List<UserInfoForAdmin> GetUserInfosForAdmin(int userId)
+        {
+            return userRepository.GetUserInfosForAdmin(userId);
         }
 
         public bool IsUserExist(string userName)
@@ -67,6 +76,11 @@ namespace App.Application.Services
 
         public bool UpdateUserByAdmin(int adminId, int id, UpdateUserByAdminViewModel model)
         {
+            var user = GetUserById(id);
+            if(model.Password == null)
+            {
+                model.Password = user.Password;
+            }
             return userRepository.UpdateUserByAdmin(adminId,id,model);  
         }
     }

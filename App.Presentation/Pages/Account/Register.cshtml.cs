@@ -23,7 +23,7 @@ namespace App.Presentation.Pages.Account
             }
             if (userService.Register(model))
             {
-                return RedirectToPage("/Index");
+                return RedirectToPage("/Account/Login");
             }
             else
             {

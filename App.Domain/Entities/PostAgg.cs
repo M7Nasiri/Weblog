@@ -5,7 +5,7 @@ using System.Text;
 
 namespace App.Domain.Entities
 {
-    public class Post
+    public class PostAgg
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -17,6 +17,8 @@ namespace App.Domain.Entities
         public DateTime CreatedAt { get; set; }
         public string? ImagePath { get; set; }
         public bool IsApproved { get; set; }
+
+        public List<CommentAgg> Comments { get; set; }
 
         public int WriterUserId { get; set; }
         public int? VerifierUserId { get; set; }

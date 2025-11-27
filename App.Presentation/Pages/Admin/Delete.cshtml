@@ -1,0 +1,29 @@
+﻿@page
+@model App.Presentation.Pages.Admin.DeleteModel
+@{
+    ViewData["Title"] = "حذف کاربر";
+}
+
+<div class="container">
+    <h2 class="my-4">حذف کاربر</h2>
+
+    <form method="post">
+        <input type="hidden" asp-for="model.Id" />
+        <div class="form-group">
+            <label for="Title">نام کاربری</label>
+            <input type="text" class="form-control" asp-for="model.UserName" />
+        </div>
+
+        <div class="form-group">
+            <label for="Summary">نقش</label>
+            <input type="text" class="form-control" asp-for="model.Role" />
+        </div>
+        <div class="form-group">
+            <label for="CategoryId">حذف کاربر</label>
+            <input type="checkbox" asp-for="model.IsDelete" class="form-check" />
+        </div>
+
+        <button type="submit" class="btn btn-danger">حذف کاربر</button>
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </form>
+</div>

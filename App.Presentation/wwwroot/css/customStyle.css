@@ -1,0 +1,10 @@
+﻿.rating span {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ccc; /* کم‌رنگ */
+    transition: 0.2s;
+}
+.rating span.selected,
+.rating span.hover {
+color: gold; /* پررنگ */
+}

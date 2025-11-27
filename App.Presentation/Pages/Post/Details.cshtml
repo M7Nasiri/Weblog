@@ -2,45 +2,50 @@
 @using App.Application.Utils
 @model App.Presentation.Pages.Post.DetailsModel
 @{
-    ViewData["Title"] = Model.model.Title;
+    ViewData["Title"] = "جزییات پست";
 }
 
 <div class="container mt-4">
 
-    <div class="card p-4 shadow-sm">
-
-        @* عنوان پست *@
+    <!-- 🟦 باکس جزئیات پست -->
+    <div class="card p-4 shadow-sm mb-4">
         <h1 class="mb-3 text-primary">@Model.model.Title</h1>
 
-        @* اطلاعات پست (نویسنده، تاریخ، تعداد بازدید) *@
-        <p class="text-secondary small">
-        <p>نویسنده : @Model.model.WriterUserName</p>
-        <p>تاریخ ایجاد : @Model.model.CreatedAt.ToPersianString() </p>
-        <p>تعداد بازدید : @Model.model.ViewCount</p>
+        <p class="small text-secondary">
+            <strong>نویسنده:</strong> @Model.model.WriterUserName <br />
+            <strong>تاریخ ایجاد:</strong> @Model.model.CreatedAt.ToPersianString() <br />
+            <strong>تعداد بازدید:</strong> @Model.model.ViewCount
+        </p>
 
-
-        @* دسته‌بندی پست *@
         <p class="text-muted">دسته‌بندی: <strong>@Model.model.CategoryName</strong></p>
-
         <hr />
 
-        @* تصویر پست *@
         @if (!string.IsNullOrEmpty(Model.model.ImagePath))
         {
             <img src="@Model.model.ImagePath" class="img-fluid rounded mb-4 w-100" />
         }
 
-        @* توضیحات پست *@
         <div class="post-content" style="text-align: justify; line-height: 2;">
-            @(Model.model.Description)
+            @Model.model.Description
         </div>
 
-        <hr />
+        <a asp-page="/Index" class="btn btn-outline-secondary mt-3">← بازگشت</a>
+    </div>
 
-        @* دکمه بازگشت به صفحه اصلی *@
-        <a asp-page="/Index" class="btn btn-outline-secondary mt-3">← بازگشت به صفحه اصلی</a>
 
+    <!-- 🟩 باکس فرم ارسال نظر -->
+    <div class="card shadow-sm p-4 mb-4">
+        <h4 class="mb-4 text-success">ارسال نظر</h4>
+
+        <partial name="_AddCommentPartialForm" model="Model.addCommentModel" />
+    </div>
+
+
+    <!-- 🟧 باکس نمایش نظرات -->
+    <div class="card shadow-sm p-4 mb-5">
+        <h4 class="mb-4 text-info">نظرات ثبت‌شده</h4>
+
+        <partial name="_PostCommentsPartial" model="Model.postComments" />
     </div>
 
 </div>
-

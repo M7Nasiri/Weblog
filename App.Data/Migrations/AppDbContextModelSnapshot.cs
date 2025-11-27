@@ -99,6 +99,68 @@ namespace App.Data.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("App.Domain.Entities.CommentAgg", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("CommentRegisterId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CommentRegistererEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CommentRegistererFullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("PostId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Rate")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CommentRegisterId");
+
+                    b.HasIndex("PostId");
+
+                    b.ToTable("Comments");
+                });
+
+            modelBuilder.Entity("App.Domain.Entities.NormalUser", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("NormalUsers");
+                });
+
             modelBuilder.Entity("App.Domain.Entities.Post", b =>
                 {
                     b.Property<int>("Id")
@@ -165,6 +227,23 @@ namespace App.Data.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("App.Domain.Entities.CommentAgg", b =>
+                {
+                    b.HasOne("App.Domain.Entities.NormalUser", "CommentRegister")
+                        .WithMany("Comments")
+                        .HasForeignKey("CommentRegisterId");
+
+                    b.HasOne("App.Domain.Entities.Post", "Post")
+                        .WithMany("Comments")
+                        .HasForeignKey("PostId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CommentRegister");
+
+                    b.Navigation("Post");
+                });
+
             modelBuilder.Entity("App.Domain.Entities.Post", b =>
                 {
                     b.HasOne("App.Domain.Entities.Category", "Cateogry")
@@ -203,6 +282,16 @@ namespace App.Data.Migrations
             modelBuilder.Entity("App.Domain.Entities.Category", b =>
                 {
                     b.Navigation("Posts");
+                });
+
+            modelBuilder.Entity("App.Domain.Entities.NormalUser", b =>
+                {
+                    b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("App.Domain.Entities.Post", b =>
+                {
+                    b.Navigation("Comments");
                 });
 #pragma warning restore 612, 618
         }

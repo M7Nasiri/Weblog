@@ -211,8 +211,10 @@ D:\MaktabSharif\dev\projects\HW21\Weblog\App.Presentation\obj\Debug\net10.0\rjsm
 D:\MaktabSharif\dev\projects\HW21\Weblog\App.Presentation\obj\Debug\net10.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 D:\MaktabSharif\dev\projects\HW21\Weblog\App.Presentation\obj\Debug\net10.0\scopedcss\bundle\App.Presentation.styles.css
 D:\MaktabSharif\dev\projects\HW21\Weblog\App.Presentation\obj\Debug\net10.0\scopedcss\projectbundle\App.Presentation.bundle.scp.css
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Presentation\obj\Debug\net10.0\compressed\gn44ok0weu-{0}-dowvsp305i-dowvsp305i.gz
 D:\MaktabSharif\dev\projects\HW21\Weblog\App.Presentation\obj\Debug\net10.0\compressed\z4mmarqtyp-{0}-b9sayid5wm-b9sayid5wm.gz
 D:\MaktabSharif\dev\projects\HW21\Weblog\App.Presentation\obj\Debug\net10.0\compressed\iv2gedz14p-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\MaktabSharif\dev\projects\HW21\Weblog\App.Presentation\obj\Debug\net10.0\compressed\l07k5q1eoy-{0}-a01pvdrjex-a01pvdrjex.gz
 D:\MaktabSharif\dev\projects\HW21\Weblog\App.Presentation\obj\Debug\net10.0\compressed\avn48cfs6r-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 D:\MaktabSharif\dev\projects\HW21\Weblog\App.Presentation\obj\Debug\net10.0\compressed\4mwiufbevz-{0}-bqjiyaj88i-bqjiyaj88i.gz
 D:\MaktabSharif\dev\projects\HW21\Weblog\App.Presentation\obj\Debug\net10.0\compressed\r3gr54ox8g-{0}-c2jlpeoesf-c2jlpeoesf.gz

@@ -19,5 +19,8 @@ namespace App.Application.Interfaces
         bool UpdateRememberMe(int id, bool rememberMe);
         int CreateUserByAdmin(int adminId, CreateUserByAdmin create);
         bool DeleteUserByAdmin(int adminId, DeleteUserByAdmin delete);
+
+        List<UserInfoForAdmin> GetUserInfosForAdmin(int userId);
+
     }
 }

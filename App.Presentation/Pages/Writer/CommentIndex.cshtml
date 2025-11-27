@@ -1,0 +1,56 @@
+﻿@page
+@model App.Presentation.Pages.Writer.CommentIndexModel
+@{
+    ViewData["Title"] = "لیست کامنتها";
+}
+<div class="container">
+
+    <h2 class="my-4">مدیریت پست‌ها</h2>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>ایمیل</th>
+                <th>نام کامل</th>
+                <th>امتیاز</th>
+                <th>وضعیت</th>
+                <th>عملیات</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Comments != null && Model.Comments.Any())
+            {
+                int row = 1;
+                @foreach (var comment in Model.Comments)
+                {
+                    <tr>
+                        <td>@row</td>
+                        <td>@comment.CommentRegistererEmail</td>
+                        <td>@comment.CommentRegistererFullName</td>
+                        <td>@comment.Rate</td>
+                        <td>@(comment.IsApproved? "تایید شده" : "تایید نشده")</td>
+                     
+                        <td>
+                            <!-- دکمه تایید -->
+                            @if (!comment.IsApproved)
+                            {
+                                <a class="btn btn-success" asp-page="/Writer/CommentApproved" asp-route-id="@comment.Id">تایید</a>
+                            }
+                            else
+                            {
+                                <a class="btn btn-warning" asp-page="/Writer/CommentApproved" asp-route-id="@comment.Id">عدم تایید</a>
+
+                            }
+                            <!-- دکمه عدم تایید -->
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>اطلاعاتی برای نمایش وجود ندارد .</tr>
+            }
+        </tbody>
+    </table>
+</div>

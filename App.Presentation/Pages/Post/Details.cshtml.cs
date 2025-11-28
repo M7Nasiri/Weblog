@@ -1,7 +1,7 @@
 ﻿using App.Application.Interfaces;
 using App.Domain.Entities;
-using App.Domain.ViewModels.Comment;
-using App.Domain.ViewModels.Post;
+using App.Domain.ViewModels.CommentAgg;
+using App.Domain.ViewModels.PostAgg;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Security.Claims;
@@ -13,7 +13,7 @@ namespace App.Presentation.Pages.Post
         [BindProperty]
         public PostDetailsViewModel model { get; set; }
         [BindProperty]
-        public List<CommentAgg> Comments { get; set; }
+        public List<Comment> Comments { get; set; }
         [BindProperty]
         public CreateCommentViewModel addCommentModel { get; set; }
         [BindProperty]

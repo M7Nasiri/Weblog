@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace App.Domain.ViewModels.Post
+namespace App.Domain.ViewModels.PostAgg
 {
     public class CreatePostViewModel
     {

@@ -9,7 +9,7 @@ namespace App.Domain.Entities
         public int Id { get; set; }
         public string FullName { get; set; }
         public string Email { get; set; }
-        public List<CommentAgg> Comments { get; set; }
+        public List<Comment> Comments { get; set; }
 
     }
 }

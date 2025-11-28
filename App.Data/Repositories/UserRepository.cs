@@ -1,7 +1,7 @@
 ﻿using App.Data.Persistence;
 using App.Domain.Entities;
 using App.Domain.Interfaces;
-using App.Domain.ViewModels.User;
+using App.Domain.ViewModels.UserAgg;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Internal;
@@ -15,7 +15,7 @@ namespace App.Data.Repositories
     {
         public int CreateUserByAdmin(int adminId, CreateUserByAdmin create)
         {
-            var user = mapper.Map<AppUser>(create);
+            var user = mapper.Map<User>(create);
             context.Add(user);
             context.SaveChanges();
             var adminLog = new AdminOperationLog
@@ -82,7 +82,7 @@ namespace App.Data.Repositories
 
         public bool Register(RegisterUserViewModel register)
         {
-            var user = mapper.Map<AppUser>(register);
+            var user = mapper.Map<User>(register);
             if (context.Users.Any(u => u.UserName == register.UserName))
                 return false;
             context.Add(user);

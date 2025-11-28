@@ -8,9 +8,9 @@ using System.Text;
 
 namespace App.Data.Configurations
 {
-    public class PostConfiguration : IEntityTypeConfiguration<PostAgg>
+    public class PostConfiguration : IEntityTypeConfiguration<Post>
     {
-        public void Configure(EntityTypeBuilder<PostAgg> builder)
+        public void Configure(EntityTypeBuilder<Post> builder)
         {
             builder.HasQueryFilter(p => !p.IsDelete);
         }

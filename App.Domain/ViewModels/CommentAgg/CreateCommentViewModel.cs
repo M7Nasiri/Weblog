@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace App.Domain.ViewModels.Comment
+namespace App.Domain.ViewModels.CommentAgg
 {
     public class CreateCommentViewModel
     {

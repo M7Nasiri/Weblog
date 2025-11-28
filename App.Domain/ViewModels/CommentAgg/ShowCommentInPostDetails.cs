@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace App.Domain.ViewModels.Comment
+namespace App.Domain.ViewModels.CommentAgg
 {
     public class ShowCommentInPostDetails
     {

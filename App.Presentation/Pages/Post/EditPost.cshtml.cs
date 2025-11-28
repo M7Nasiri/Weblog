@@ -1,7 +1,7 @@
 using App.Application.Interfaces;
 using App.Application.Services;
 using App.Domain.Entities;
-using App.Domain.ViewModels.Post;
+using App.Domain.ViewModels.PostAgg;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Security.Claims;

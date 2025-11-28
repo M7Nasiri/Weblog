@@ -1,7 +1,7 @@
 ﻿using App.Data.Persistence;
 using App.Domain.Entities;
 using App.Domain.Interfaces;
-using App.Domain.ViewModels.Post;
+using App.Domain.ViewModels.PostAgg;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,7 +14,7 @@ namespace App.Data.Repositories
     {
         public bool Create(CreatePostViewModel model)
         {
-            var post = mapper.Map<PostAgg>(model);
+            var post = mapper.Map<Post>(model);
             context.Posts.Add(post);
             return context.SaveChanges() > 0;
         }
@@ -69,7 +69,7 @@ namespace App.Data.Repositories
 
         public List<GetPostViewModel> GetBySearchAndSort(int userId,SearchAndSortViewModel sSModel)
         {
-            IQueryable<PostAgg> iQres = context.Posts.Where(p => p.WriterUserId == userId).Include(p => p.Cateogry)
+            IQueryable<Post> iQres = context.Posts.Where(p => p.WriterUserId == userId).Include(p => p.Cateogry)
                 .Include(p => p.Writer).Include(p => p.Verifier).OrderByDescending(p => p.CreatedAt); 
             if (!string.IsNullOrEmpty(sSModel.Title))
             {

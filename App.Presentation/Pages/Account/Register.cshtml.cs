@@ -1,6 +1,6 @@
 ﻿using App.Application.Interfaces;
 using App.Domain.Enum;
-using App.Domain.ViewModels.User;
+using App.Domain.ViewModels.UserAgg;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Win32;

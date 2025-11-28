@@ -1,11 +1,11 @@
 ﻿using App.Application.Interfaces;
-using App.Domain.ViewModels.User;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Security.Claims;
 using App.Domain.Enum;
+using App.Domain.ViewModels.UserAgg;
 namespace App.Presentation.Pages.Account
 {
     public class LoginModel(IUserService userService) : PageModel

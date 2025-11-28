@@ -7,9 +7,9 @@ using System.Text;
 
 namespace App.Data.Configurations
 {
-    public class CommentConfiguration : IEntityTypeConfiguration<CommentAgg>
+    public class CommentConfiguration : IEntityTypeConfiguration<Comment>
     {
-        public void Configure(EntityTypeBuilder<CommentAgg> builder)
+        public void Configure(EntityTypeBuilder<Comment> builder)
         {
             builder.HasQueryFilter(c => !c.Post.IsDelete);
         }

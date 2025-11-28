@@ -1,6 +1,6 @@
 ﻿using App.Application.Interfaces;
 using App.Domain.Interfaces;
-using App.Domain.ViewModels.Post;
+using App.Domain.ViewModels.PostAgg;
 using System;
 using System.Collections.Generic;
 using System.Text;

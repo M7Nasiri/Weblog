@@ -1,6 +1,6 @@
 using App.Application.Interfaces;
 using App.Application.Services;
-using App.Domain.ViewModels.User;
+using App.Domain.ViewModels.UserAgg;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;

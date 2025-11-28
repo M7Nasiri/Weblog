@@ -1,7 +1,7 @@
 ﻿using App.Data.Persistence;
 using App.Domain.Entities;
 using App.Domain.Interfaces;
-using App.Domain.ViewModels.Comment;
+using App.Domain.ViewModels.CommentAgg;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,7 +14,7 @@ namespace App.Data.Repositories
     {
         public bool Add(CreateCommentViewModel model)
         {
-            var comment = mapper.Map<CommentAgg>(model);
+            var comment = mapper.Map<Comment>(model);
             context.Comments.Add(comment);
             return context.SaveChanges() > 0;
         }

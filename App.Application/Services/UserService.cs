@@ -1,6 +1,6 @@
 ﻿using App.Application.Interfaces;
 using App.Domain.Interfaces;
-using App.Domain.ViewModels.User;
+using App.Domain.ViewModels.UserAgg;
 using System;
 using System.Collections.Generic;
 using System.Security.Claims;

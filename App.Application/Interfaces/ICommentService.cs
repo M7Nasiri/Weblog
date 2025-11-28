@@ -1,4 +1,4 @@
-﻿using App.Domain.ViewModels.Comment;
+﻿using App.Domain.ViewModels.CommentAgg;
 using System;
 using System.Collections.Generic;
 using System.Text;

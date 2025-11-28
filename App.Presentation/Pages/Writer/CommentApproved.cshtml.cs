@@ -1,5 +1,5 @@
 using App.Application.Interfaces;
-using App.Domain.ViewModels.Comment;
+using App.Domain.ViewModels.CommentAgg;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;

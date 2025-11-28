@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace App.Domain.ViewModels.User
+namespace App.Domain.ViewModels.UserAgg
 {
     public class UpdatePasswordUserViewModel
     {

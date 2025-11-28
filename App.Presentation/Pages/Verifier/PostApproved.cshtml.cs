@@ -1,5 +1,5 @@
 using App.Application.Interfaces;
-using App.Domain.ViewModels.Post;
+using App.Domain.ViewModels.PostAgg;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
